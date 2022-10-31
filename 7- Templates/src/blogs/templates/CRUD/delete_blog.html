@@ -1,0 +1,8 @@
+<h1>Delete {{blog.title}}</h1>
+<h5>Are you sure you wanna delete {{blog.title}} blog!</h5>
+<br>
+<form method="POST" action=".">
+	{% csrf_token %}
+	<input type="submit" value="yes">
+	<a href="{% url 'blog:post_model_list_view' %}" style="margin-left:10px">Cancel</a>
+</form>

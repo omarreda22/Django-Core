@@ -1,0 +1,7 @@
+<h1>Delete {{blog.title}}</h1>
+<hr>
+<form method="POST" action=".">
+    {% csrf_token %}
+    <p>Are you sure you wanna delete this Blog</p>
+    <button type="submit">Delete</button>
+</form>

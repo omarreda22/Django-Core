@@ -1,0 +1,422 @@
+[
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "title": "abc",
+            "slug": null,
+            "description": null,
+            "price": "11.20",
+            "state": "PR",
+            "created": "2022-08-28T18:14:52.613",
+            "updated": "2022-08-28T18:14:52.613",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "title": "asd",
+            "slug": null,
+            "description": null,
+            "price": "11.00",
+            "state": "PU",
+            "created": "2022-08-28T18:20:04.813",
+            "updated": "2022-08-28T18:22:59.984",
+            "time_when_public": "2022-08-28T18:22:59.984"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "title": "New-Slug",
+            "slug": null,
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:27:20.756",
+            "updated": "2022-08-29T19:27:20.756",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "title": "New-Slug",
+            "slug": "new-slug",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:29:10.678",
+            "updated": "2022-08-29T19:29:10.678",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "title": "New-Slug",
+            "slug": "new-slug-1",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:29:21.931",
+            "updated": "2022-08-29T19:29:21.932",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+            "title": "New-Slug",
+            "slug": "new-slug-1",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:29:30.871",
+            "updated": "2022-08-29T19:29:30.871",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 7,
+        "fields": {
+            "title": "New-Slug",
+            "slug": "new-slug-1",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:29:37.915",
+            "updated": "2022-08-29T19:29:37.915",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+            "title": "New-Slug",
+            "slug": "new-slug-1",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:32:15.379",
+            "updated": "2022-08-29T19:32:15.379",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+            "title": "New-Slug",
+            "slug": "new-slug-1",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:32:21.406",
+            "updated": "2022-08-29T19:32:21.406",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+            "title": "New-Slug",
+            "slug": "new-slug-2",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:33:07.416",
+            "updated": "2022-08-29T19:33:07.416",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+            "title": "New-Slug",
+            "slug": "new-slug-2",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:33:10.041",
+            "updated": "2022-08-29T19:33:10.041",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+            "title": "New-Slug",
+            "slug": "new-slug-2",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:33:15.497",
+            "updated": "2022-08-29T19:33:15.497",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+            "title": "New-Slugg",
+            "slug": "new-slugg",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:34:15.906",
+            "updated": "2022-08-29T19:34:15.906",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+            "title": "New-Slugg",
+            "slug": "new-slugg-2",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:34:28.084",
+            "updated": "2022-08-29T19:34:28.084",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+            "title": "New-Slugg",
+            "slug": "new-slugg-2",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:34:31.892",
+            "updated": "2022-08-29T19:34:31.892",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 16,
+        "fields": {
+            "title": "New-Slug",
+            "slug": "new-slug-1",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:35:59.809",
+            "updated": "2022-08-29T19:35:59.809",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 17,
+        "fields": {
+            "title": "New-Slusg",
+            "slug": "new-slusg",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:36:41.060",
+            "updated": "2022-08-29T19:36:41.060",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 18,
+        "fields": {
+            "title": "New-Slusg",
+            "slug": "new-slusg-1",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:36:49.394",
+            "updated": "2022-08-29T19:36:49.394",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 19,
+        "fields": {
+            "title": "New-Slusg",
+            "slug": "new-slusg-1",
+            "description": null,
+            "price": "12.22",
+            "state": "PR",
+            "created": "2022-08-29T19:36:52.666",
+            "updated": "2022-08-29T19:36:52.666",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 20,
+        "fields": {
+            "title": "First One",
+            "slug": "first-one",
+            "description": null,
+            "price": "12.20",
+            "state": "PR",
+            "created": "2022-08-29T22:04:48.323",
+            "updated": "2022-08-29T22:04:48.323",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 21,
+        "fields": {
+            "title": "First One",
+            "slug": "first-one-1",
+            "description": null,
+            "price": "12.20",
+            "state": "PR",
+            "created": "2022-08-29T22:04:58.471",
+            "updated": "2022-08-29T22:04:58.471",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 22,
+        "fields": {
+            "title": "First One",
+            "slug": "first-one-1",
+            "description": null,
+            "price": "12.20",
+            "state": "PR",
+            "created": "2022-08-29T22:05:08.747",
+            "updated": "2022-08-29T22:05:08.747",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 23,
+        "fields": {
+            "title": "Second Test",
+            "slug": "second-test",
+            "description": null,
+            "price": "54.52",
+            "state": "PR",
+            "created": "2022-08-29T22:11:22.277",
+            "updated": "2022-08-29T22:11:22.277",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 24,
+        "fields": {
+            "title": "Second Test",
+            "slug": "second-test-2",
+            "description": null,
+            "price": "54.52",
+            "state": "PR",
+            "created": "2022-08-29T22:11:31.103",
+            "updated": "2022-08-29T22:11:31.103",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 25,
+        "fields": {
+            "title": "Third Test",
+            "slug": "third-test",
+            "description": null,
+            "price": "46.88",
+            "state": "PR",
+            "created": "2022-08-29T22:14:00.846",
+            "updated": "2022-08-29T22:14:00.846",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 26,
+        "fields": {
+            "title": "Third Test",
+            "slug": "third-test-1",
+            "description": null,
+            "price": "46.88",
+            "state": "PR",
+            "created": "2022-08-29T22:15:05.911",
+            "updated": "2022-08-29T22:15:05.911",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 27,
+        "fields": {
+            "title": "Third Test",
+            "slug": "third-test-2",
+            "description": null,
+            "price": "46.88",
+            "state": "PR",
+            "created": "2022-08-29T22:15:14.509",
+            "updated": "2022-08-29T22:15:14.509",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 28,
+        "fields": {
+            "title": "Third Test",
+            "slug": "third-test-3",
+            "description": null,
+            "price": "46.88",
+            "state": "PR",
+            "created": "2022-08-29T22:15:17.832",
+            "updated": "2022-08-29T22:15:17.832",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 29,
+        "fields": {
+            "title": "Third Test",
+            "slug": "third-test-4",
+            "description": null,
+            "price": "46.88",
+            "state": "PR",
+            "created": "2022-08-29T22:15:20.943",
+            "updated": "2022-08-29T22:15:20.943",
+            "time_when_public": null
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 30,
+        "fields": {
+            "title": "Oamrasd",
+            "slug": "oamrasd",
+            "description": "df",
+            "price": "12.00",
+            "state": "PR",
+            "created": "2022-08-29T22:36:33.389",
+            "updated": "2022-08-29T22:36:33.389",
+            "time_when_public": null
+        }
+    }
+]

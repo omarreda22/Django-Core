@@ -1,0 +1,16 @@
+{% if title %}
+<h1>Hello From Django {{title}}</h1>
+<hr>
+{% endif %}
+
+{% for obj in object_list %}
+    <li>
+        {{ obj.title }}
+        <a href="{% url "cbv:detail_and_update" obj.slug %}">Edit</a>
+        <a href="{% url "cbv:delete_product" obj.slug %}">Delete</a>
+    </li>
+{% endfor %}
+
+<hr>
+
+{{omar}}

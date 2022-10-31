@@ -1,0 +1,11 @@
+{% extends './navbar.html' %}
+{% block content %}
+
+<h2>Display Data Here</h2>
+<hr>
+{{omar}}
+{% for obj in object_list %}
+    <p>{{obj}}<p>
+{% endfor %}
+
+{% endblock %}

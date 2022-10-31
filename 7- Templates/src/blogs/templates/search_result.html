@@ -1,0 +1,6 @@
+<h1>Search Result</h1>
+<br>
+{% for q in qs %}
+    <a href="{% url 'blog:retrieve_view' q.title %}">. {{q.title}}</a>
+    <br>
+{% endfor %}

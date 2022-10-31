@@ -1,0 +1,11 @@
+<p>Hello World</p>
+<h1>{{product.user.username}}<h1>
+<h1>{{object.title}}<h1>
+<h1>{{product.title}}<h1>
+
+
+
+{% if form %}
+    <hr>
+    {% include "./forms.html" with form=form delete_url=object.get_delete_url%}
+{% endif %}

@@ -1,0 +1,8 @@
+<h1>Edit {{object.title}}</h1>
+
+<!-- POST -> we are send post data to back  -->
+<form method="POST" action=".">
+	{% csrf_token %}
+	{{form.as_p}}
+	<input type="submit" value="edit">
+</form>

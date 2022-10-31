@@ -1,0 +1,9 @@
+- verbose_name = ~
+- help_text = ~
+- DateField(defualt=timezone.now)
+- Dicimal(max_digits-> The All Number)
+- Dicimal(decimal_places-> number after sign)
+
+- FileField(upload_to=)
+- ImageField(upload_to=)
+- PositiveIntegerField()

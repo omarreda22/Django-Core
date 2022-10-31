@@ -1,0 +1,54 @@
+<style>
+	.cyc {
+		color:green
+	}
+</style>
+<h3><a href="{% url 'blog:create_blog' %}">Create New Post<a></h3>
+<br>
+<br>
+
+
+<div style="width:50%;margin:auto;font-size:20px;margin-top:7px">
+
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+    <hr>
+</ul>
+{% endif %}
+<div style="margin-left:40%">
+<form method="GET" action="{% url 'blog:post_model_list_view' %}" >
+	<input type="text" name="q" placeholder="Search..">
+</form>
+</div>
+<hr>
+
+{% for q in qs %}
+
+	{% comment %} <a href="{% url 'blog:retrieve_view' q.title %}"> 
+		{{forloop.counter}}. 
+		{{forloop.first}}
+		{{forloop.last}} 
+		{{q.title}}
+
+
+		1- extends 
+		2- {% block title %} Main Title | {{ block.super }} {% end %}
+		3- include
+	</a><br> {% endcomment %}
+
+	<a 
+	class="{% cycle "" "cyc" "" %}"
+	href="{% url 'blog:retrieve_view' q.title %}"> 
+		{{q.title}}
+	</a><br>
+	
+	<div style="float:right;">
+		<a href="{% url 'blog:edit_blog' q.title %}" style="margin-right:10px;color:#455557">Edit</a>
+		<a href="{% url 'blog:delete_blog' q.title %}" style="color:red;margin-right:10px;">Delete</a>
+		<a href="{% url 'blog:delete_quickly' q.title %}" style="color:#9c0818">Delete Quickly</a>
+	</div>
+{% endfor %}
+</div>

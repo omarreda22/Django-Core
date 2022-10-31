@@ -1,0 +1,53 @@
+{% extends './base.html' %}
+{% block content %}
+<style>
+    ul {  
+        list-style-type: none;  
+    }  
+</style>
+    {% if form.errors %}
+        {% for key, value in form.errors.items %}
+            <div class="alert alert-danger" role="alert">
+                <p>{{value}}</p>
+            </div>
+        {% endfor %}
+    {% endif %}
+    
+    
+    
+    <form method="POST" action="">
+        <div class="form-check">
+            {% csrf_token %}
+            {{form.title}}
+            {{form.slug}}
+            {{form.height_field}}
+            {{form.width_field}}
+            {{form.content}}
+
+            {% comment %} {{ form.text }}<br>
+            {{ form.text_area }}<br>
+
+            {{ form.text_select }}<br>
+            {{ form.text_select_checkbox }}<br> 
+            {{ form.text_select_radio }}<br> 
+            {{ form.text_select_mult }}<br> 
+
+            {{ form.text_date }}<br>
+            {{ form.text_date_range_year }}<br> {% endcomment %}
+            {% comment %} {{ form.text_date_with_initial }}<br> {% endcomment %}
+
+
+            {% comment %} {{ form.image }}<br> {% endcomment %}
+            {% comment %} {{ form.time }}<br>
+            {{ form.email }}<br>
+
+            {{ form.number }}<br>
+            {{ form.number_choices }}<br>
+            {{ form.number_choices_inital }}<br> {% endcomment %}
+            {% comment %} Boolean Field  <div style="width:3%">{{ form.boolean }}</div><br> {% endcomment %}
+            {% comment %} <label class="form-check-label" for="exampleCheck1">Check me out</label> {% endcomment %}
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+{% endblock %}

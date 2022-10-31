@@ -1,0 +1,14 @@
+{% extends './navbar.html' %}
+{% block content %}
+<h1>Blogs</h1>
+<hr>
+
+{% for blog in blogs %}
+    <li>
+        <a href="{% url "reView:blog" blog.slug %}">{{ blog.title }}</a>
+        <a href="{% url "reView:edit_blog" blog.slug %}">Edit</a>
+        <a href="{% url "reView:delete_blog" blog.slug %}">Delete</a>
+        <a href="{% url "reView:delete_quick" blog.slug %}">Delete Eqick</a>
+    </li>
+{% endfor %}
+{% endblock %}
