@@ -113,6 +113,26 @@ class NewUser(AbstractBaseUser):
     #     # Simplest possible answer: All admins are staff
     #     return self.is_admin
 
+###################################################################################################
+###################################################################################################
+###################################################################################################
+
+########## Add Group and Permissions
+
+# from models.py
+# add PermissionsMixin
+# remove has_perm and has_module_perms
+
+# from admin.py
+# fieldsets -> Permissions -> add ('groups', 'user_permissions')
+# remove filter_horizontal
+
+
+###################################################################################################
+###################################################################################################
+###################################################################################################
+
+
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
