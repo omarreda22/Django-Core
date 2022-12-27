@@ -14,8 +14,10 @@ User = settings.AUTH_USER_MODEL  # auth.User
 
 class Car(models.Model):
     user = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name="car_rel")  # user.car_rel.all() not user.car_set.all()
+        User, on_delete=models.CASCADE, related_name="car_rel", limit_choices_to=({'is_staff': True}))  # user.car_rel.all() not user.car_set.all()
     name = models.CharField(max_length=125)
+    updated_by = models.ForeignKey(
+        User, on_delete=models.CASCADE, null=True, blank=True)
 
     def __str__(self):
         return self.name
@@ -133,7 +135,6 @@ class Driver(models.Model):
     queryset.distinct() -> For Remove doplicate
 """
 
-
 ############################################################################################################
 ############################################################################################################
 ############################################################################################################
@@ -155,3 +156,46 @@ class Driver(models.Model):
     SET_DEFAULT -> when delete user will set default vaLUE
     user = models.ForeignKey(User, on_delete=models.SET_DEFAULT, default=1)
 """
+
+############################################################################################################
+############################################################################################################
+############################################################################################################
+
+# Limt Choices
+# Who Will Display
+
+"""
+    user = models.ForeignKey(
+            User, 
+            on_delete=models.CASCADE, 
+            related_name="car_rel", 
+            limit_choices_to=({'is_staff': True},
+            ))
+"""
+# This mean will user will only is_staff
+
+
+# complext Limt
+
+"""
+def limit_user_choices():
+    Q = models.Q
+    return Q(username__icontains='e') | Q(username__icontins='o')
+    
+user = models.ForeignKey(
+        User, 
+        on_delete=models.CASCADE, 
+        related_name="car_rel", 
+        limit_choices_to=limit_user_choices,
+        ))
+"""
+
+
+############################################################################################################
+############################################################################################################
+############################################################################################################
+
+# Search
+# save_model method
+
+# In Admin.py
