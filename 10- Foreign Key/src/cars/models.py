@@ -5,6 +5,20 @@ User = settings.AUTH_USER_MODEL  # auth.User
 
 
 """
+    from.django.contrib.auth.models import User 
+
+    from django.conf import settings
+    User = settings.AUTH_USER_MODEL
+
+    from django.contrib,auth import get_user_model
+    User = get_user_model()
+    User.objects.all()
+    u = User.objects.all()		
+"""
+
+
+
+"""
     One user have many cars, but car have only 1 user
     ManytoOneField
 
